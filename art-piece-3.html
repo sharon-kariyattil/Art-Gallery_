@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spring's Bloom - Art Gallery</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="assets/css/gallery-style.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Art Gallery</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list" id="nav-list">
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="art-piece section">
+            <div class="art-piece__container container grid">
+                <div class="art-piece__img-container">
+                    <img src="assets/img/Spring's Bloom.avif" alt="Spring's Bloom" class="art-piece__img">
+                </div>
+                <div class="art-piece__data">
+                    <h1 class="art-piece__title">Spring's Bloom</h1>
+                    <h2 class="art-piece__artist">By Emily White</h2>
+                    <h3 class="art-piece__year">Year of Creation: 2022</h3>
+                    <p class="art-piece__description">
+                        This piece uses a rich, textured oil technique to bring a bouquet of flowers to life. The dark, moody background contrasts with the vibrant petals, symbolizing life and resilience.
+                    </p>
+                    <a href="art-display.html" class="button button--flex">
+                        <i class="uil uil-arrow-left button__icon"></i> Back to Gallery
+                    </a>
+                </div>
+            </div>
+            <div class="similar-art__container container">
+                <h2 class="similar-art__title">Similar Artworks</h2>
+                <div class="gallery__container grid">
+                    <a href="art-piece-1.html" class="gallery__card">
+                        <img src="assets/img/Vibrant Chaos.avif" alt="Abstract Painting" class="gallery__img">
+                        <div class="gallery__data">
+                            <h3 class="gallery__title">Vibrant Chaos</h3>
+                            <span class="gallery__artist">By Jane Doe</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="assets/js/art.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

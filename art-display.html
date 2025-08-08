@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Display - Art Gallery</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="assets/css/gallery-style.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Art Gallery</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list" id="nav-list">
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="art-display section">
+            <h2 class="section__title">Our Collection</h2>
+            <span class="section__subtitle">Filter by Category</span>
+
+            <div class="art-display__filters">
+                <span class="art-display__item active-work" data-filter="all">All</span>
+                <span class="art-display__item" data-filter=".painting">Paintings</span>
+                <span class="art-display__item" data-filter=".sculpture">Sculptures</span>
+                <span class="art-display__item" data-filter=".photography">Photography</span>
+            </div>
+
+            <div class="art-display__container container grid">
+    <div class="art-display__card mix painting">
+    <img src="assets/img/Vibrant Chaos.avif" alt="Abstract Painting" class="art-display__img">
+    <div class="art-display__data">
+        <h3 class="art-display__title">Vibrant Chaos</h3>
+        <a href="art-piece-1.html" class="button button--flex button--small" style="margin: 0 auto;">
+            View Details <i class="uil uil-arrow-right button__icon"></i>
+        </a>
+    </div>
+</div>
+<div class="art-display__card mix sculpture">
+    <img src="assets/img/thinkers-cousin.JPG" alt="Sculpture" class="art-display__img">
+    <div class="art-display__data">
+        <h3 class="art-display__title">The Thinker's Cousin</h3>
+        <a href="art-piece-2.html" class="button button--flex button--small" style="margin: 0 auto;">
+            View Details <i class="uil uil-arrow-right button__icon"></i>
+        </a>
+    </div>
+</div>
+<div class="art-display__card mix painting">
+    <img src="assets/img/Spring's Bloom.avif" alt="Floral Painting" class="art-display__img">
+    <div class="art-display__data">
+        <h3 class="art-display__title">Spring's Bloom</h3>
+        <a href="art-piece-3.html" class="button button--flex button--small" style="margin: 0 auto;">
+            View Details <i class="uil uil-arrow-right button__icon"></i>
+        </a>
+    </div>
+</div>
+<div class="art-display__card mix photography">
+    <img src="assets/img/misty-mountains.jpg" alt="Landscape Painting" class="art-display__img">
+    <div class="art-display__data">
+        <h3 class="art-display__title">Misty Mountains</h3>
+        <a href="art-piece-4.html" class="button button--flex button--small" style="margin: 0 auto;">
+            View Details <i class="uil uil-arrow-right button__icon"></i>
+        </a>
+    </div>
+</div>
+<div class="art-display__card mix photography">
+    <img src="assets/img/Ocean's Breath.webp" alt="Ocean Photography" class="art-display__img">
+    <div class="art-display__data">
+        <h3 class="art-display__title">Ocean's Breath</h3>
+        <a href="art-piece-5.html" class="button button--flex button--small" style="margin: 0 auto;">
+            View Details <i class="uil uil-arrow-right button__icon"></i>
+        </a>
+    </div>
+</div>
+<div class="art-display__card mix photography">
+    <img src="assets/img/City at Dusk.jpg" alt="City Photography" class="art-display__img">
+    <div class="art-display__data">
+        <h3 class="art-display__title">City at Dusk</h3>
+        <a href="art-piece-6.html" class="button button--flex button--small" style="margin: 0 auto;">
+            View Details <i class="uil uil-arrow-right button__icon"></i>
+        </a>
+    </div>
+</div>
+</div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        </footer>
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mixitup@3.3.1/dist/mixitup.min.js"></script>
+    <script src="assets/js/art.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
